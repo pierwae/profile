@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Lora', serif;
+  color: #575F7D;
+  line-height: 20px;
+}
+.img-format {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 75px;
+}
+.text-title {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-size: 110%;
+}
+.button {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.button_link {
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: bold;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #7e72fc;
+  padding: 17px;
+  border-radius: 5px;
+  font-size: 95%;
+}
+.button_link:hover {
+  background-color: black;
+}
+.container {
+  align-content: center;
+  width: 55%;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 25px;
+  margin: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #D8D8D8;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+i {
+  color: lightgrey;
+  font-size: 300%;
+}
+.green-font-color {
+  color: #B4D8B2;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .text-title {
+    line-height: 40px;
+  }
+  .list-inline > li {
+    display: block;
+    line-height: 40px;
+  }
+}
